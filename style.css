@@ -17,7 +17,6 @@ a {
   text-decoration: none;
 }
 
-
 /* Media Query Start */
 @media (max-width: 768px) {
   body {
@@ -258,8 +257,6 @@ a {
   }
 
   /* Top Technologies End  */
-
-
 
   /* Top Developer Section Start */
   .top-develop {
