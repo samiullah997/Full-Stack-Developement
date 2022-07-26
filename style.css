@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
 * {
   margin: 0;
   border: 0;
@@ -7,6 +9,8 @@
 body {
   width: 100%;
   height: auto;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
 }
 
 ul {
@@ -17,31 +21,416 @@ a {
   text-decoration: none;
 }
 
+.logo a {
+  color: white;
+}
+
+.status-bar {
+  display: none;
+  width: 100%;
+  height: 30px;
+  background-color: #272a31;
+}
+
+.btn-join a {
+  color: white;
+}
+
+.status-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+
+.status-bar ul a {
+  color: white;
+}
+
+/* Header Section start */
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 465px;
+  gap: 10px;
+  z-index: 2;
+  text-align: center;
+}
+
+.index-img {
+  background-image: url('https://cdn.pixabay.com/photo/2022/07/08/05/38/freelance-work-7308505_1280.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-img {
+  background-image: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/full_stack_banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  display: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  justify-content: space-between;
+  color: #272a31;
+}
+
+.menu-items {
+  position: fixed;
+  background-color: #272a31;
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  display: none;
+  text-align: center;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+
+  /* clip-path: circle(100px at 90% -20%); */
+
+  /* -webkit-clip-path: circle(100px at 90% -20%); */
+  transition: all 20000ms ease-in-out;
+  z-index: 1;
+}
+
+.menu-items-desktop {
+  display: none;
+}
+
+.menu-items li {
+  border: none;
+}
+
+.menu-items li a {
+  color: #fff;
+  font-size: 22px;
+}
+
+.x-icon {
+  position: fixed;
+  display: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  z-index: 2;
+}
+
+.menu-icon {
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+
+.header-title {
+  color: rgb(210, 8, 8);
+  margin-left: 10px;
+}
+
+.header-desc {
+  font-size: 20px;
+  margin: 10px;
+  border: 0.5px solid gray;
+  background-color: #f4f0f0;
+  color: #272a31;
+  padding: 10px;
+  margin-top: 210px;
+  font-weight: bold;
+}
+
+.sub-desc {
+  font-weight: bold;
+  color: #ec5242;
+}
+
+.underline {
+  color: #ec5242;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Header Section start */
+
+/* About Section Start */
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.about-logo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  height: auto;
+  gap: 20px;
+}
+
+.row {
+  align-items: center;
+  width: 40px;
+  height: 1px;
+  background-color: #ec5242;
+}
+
+.about-logo img {
+  width: 300px;
+  height: 100px;
+}
+
+.line {
+  margin-top: 30px;
+  width: 100%;
+  height: 1px;
+  background-color: #828282;
+}
+
+.see-past {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.see-past img {
+  width: 100%;
+  height: 200px;
+}
+
+/* About Section End */
+
+/* Top Technologies Start  */
+.top-lang {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: #272a31;
+}
+
+.top-lang h2 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.top-lang .card {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  background-color: rgba(128, 127, 127, 0.1921568627);
+}
+
+.top-lang .card-body {
+  max-width: 400px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1px;
+  background-color: rgba(128, 127, 127, 0.1921568627);
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.top-lang .card-body img {
+  width: 68px;
+  height: 68px;
+  background-color: transparent;
+  display: flex;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card-desc h2 {
+  font-size: 20px;
+}
+
+.top-lang .card-body h2 {
+  color: #ec5242;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: bold;
+}
+
+.top-lang .card-body p {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  max-width: 176px;
+  margin: 0 auto;
+}
+
+.btn-join {
+  padding: 20px;
+  align-items: center;
+  background-color: #ec5242;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Top Technologies End  */
+
+/* Top Developer Section Start */
+.top-develop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.develop-title {
+  color: black;
+  text-align: center;
+}
+
+.top-area .card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.top-area .card .card-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-area .card-body img {
+  width: 100px;
+  height: 100%;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.top-area .card-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  gap: 10px;
+}
+
+.div-card-line {
+  width: 45px;
+  height: 1px;
+  background-color: #aca9a9;
+}
+
+.top-area .card-desc .desc {
+  color: #ec5242;
+  font-style: italic;
+}
+
+.top-develop .btn-more {
+  padding: 10px;
+  border: 1px solid gray;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btn-more i {
+  color: #ec5242;
+}
+
+/* Top Developer Section End */
+
+/* Partner Section Start */
+.partner {
+  background-color: #272a31;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 25px;
+  color: #828282;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.titleNumbre {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.numbersContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* Parnter Section End */
+
+/* Footer Section Start */
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer span {
+  font-size: 11px;
+  font-weight: bold;
+  color: #272a31;
+  text-align: center;
+}
+
+/* Footer Section End */
 
 /* Media Query Start */
-@media (max-width: 768px) {
-  body {
-    width: 100%;
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
+@media (min-width: 768px) {
+  /* Desktop Version Start */
   .status-bar {
-    display: none;
+    display: block;
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: #272a31;
+  }
+
+  .about-desc a {
+    color: #ec5242;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .btn-join a {
+    color: white;
   }
 
   .status-bar ul {
@@ -49,6 +438,7 @@ a {
     flex-direction: row;
     justify-content: end;
     align-items: center;
+    padding: 10px;
     gap: 20px;
   }
 
@@ -56,327 +446,201 @@ a {
     color: white;
   }
 
-  /* Header Section start */
-  header {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 465px;
-    background-image: url('https://cdn.pixabay.com/photo/2022/07/08/05/38/freelance-work-7308505_1280.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    gap: 10px;
-    z-index: 2;
-    text-align: center;
+  .menu-icon {
+    display: none;
   }
 
   .logo {
-    display: none;
+    width: 168px;
+    display: block;
+    color: white;
   }
 
   nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .index-img {
+    background-image: url('https://semidotinfotech.com/web/images/FullStackDevelopmentCompany.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .menu-items-desktop {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+  }
+
+  .menu-items-desktop li a {
+    color: white;
+  }
+
+  header .header-desc {
+    width: 440px;
+    font-size: 20px;
+    margin: 0;
+    border: none;
+    background-color: unset;
+    color: #fff;
+    padding: 10px;
+    margin-top: 220px;
+    font-weight: bold;
+    text-align: start;
+  }
+
+  header .sub-desc {
+    width: 440px;
+    font-size: 15px;
+    border: none;
+    background-color: unset;
+    color: #ec5242;
+    padding: 10px;
+    font-weight: bold;
+    text-align: start;
+  }
+
+  header .underline {
+    width: 440px;
+    border: none;
+    margin-left: 54px;
+    background-color: unset;
+    color: #fff;
+    text-align: start;
+  }
+
+  .about-desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-desc p {
+    color: white;
+    width: 50%;
+    text-align: center;
+  }
+
+  .top-lang {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .cards-area {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 40px;
-    padding: 10px;
-    justify-content: space-between;
-    color: #272a31;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
 
-  .menu-items {
-    display: none;
-    flex-direction: row;
-    padding: 10px;
+  .card {
+    width: 50px;
+    height: 70px;
+  }
+
+  .card .card-body {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
   }
 
-  .x-icon {
-    display: none;
+  .card .card-body img {
+    width: 34px;
+    height: 34px;
   }
 
-  .menu-items li {
-    border: 1px solid gray;
+  .card .card-body p {
+    font-size: 12px;
+    text-align: center;
   }
 
-  .header-title {
-    color: rgb(210, 8, 8);
-    margin-left: 10px;
-  }
-
-  .header-desc {
-    font-size: 20px;
-    margin: 10px;
-    border: 0.5px solid gray;
-    background-color: #f4f0f0;
-    color: #272a31;
-    padding: 10px;
-    margin-top: 210px;
-    font-weight: bold;
-  }
-
-  .sub-desc {
-    font-weight: bold;
-  }
-
-  .underline {
-    color: #272a31;
-    font-weight: bold;
+  .btn-join {
+    background-color: unset;
     text-decoration: underline;
   }
 
-  /* Header Section start */
-
-  /* About Section Start */
-  .about {
+  .top-develop {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: auto;
-    align-items: center;
-  }
-
-  .about-logo {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    width: 60%;
-    height: auto;
-    gap: 20px;
-  }
-
-  .row {
     align-items: center;
-    width: 40px;
-    height: 1px;
-    background-color: #ec5242;
   }
 
-  .about-logo img {
-    width: 300px;
+  .top-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .top-area .card {
+    width: 50%;
+    height: auto;
+  }
+
+  .top-area .card .card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-area .card .card-body .card-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .top-area .card .card-body .card-desc p {
+    text-align: start;
+  }
+
+  .see-past .post-img img {
+    width: 50%;
+    height: 40%;
+    padding: 10px;
+  }
+
+  .top-area .card .card-body img {
+    width: 10px;
     height: 100px;
   }
 
-  .line {
-    margin-top: 30px;
-    width: 100%;
-    height: 1px;
-    background-color: #828282;
+  .top-develop .btn-more {
+    display: none;
   }
 
   .see-past {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    align-items: center;
-    gap: 20px;
   }
 
-  .see-past img {
-    width: 100%;
-    height: 200px;
-  }
-
-  /* About Section End */
-
-  /* Top Technologies Start  */
-  .top-lang {
+  .post-img {
     width: 100%;
     height: auto;
-    padding: 10px;
-    background-color: #272a31;
-  }
-
-  .top-lang h2 {
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .top-lang .card {
-    width: 100%;
-    height: auto;
-    margin-top: 5px;
-    background-color: rgba(128, 127, 127, 0.1921568627);
-  }
-
-  .top-lang .card-body {
-    max-width: 400px;
-    height: 150px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 1px;
-    background-color: rgba(128, 127, 127, 0.1921568627);
-    border-radius: 8px;
-    margin: 0 auto;
-  }
-
-  .top-lang .card-body img {
-    width: 68px;
-    height: 68px;
-    background-color: transparent;
-    display: flex;
-    border-radius: 50%;
-    margin: 0 auto;
-  }
-
-  .card-desc h2 {
-    font-size: 20px;
-  }
-
-  .top-lang .card-body h2 {
-    color: #ec5242;
-    font-size: 16px;
-    font-family: "lato", sans-serif;
-    font-weight: bold;
-  }
-
-  .top-lang .card-body p {
-    color: white;
-    font-size: 15px;
-    font-weight: 300;
-    max-width: 176px;
-    margin: 0 auto;
-  }
-
-  .btn-join {
-    padding: 20px;
-    align-items: center;
-    background-color: #ec5242;
-    color: white;
-    text-align: center;
-    margin: 20px;
-  }
-
-  /* Top Technologies End  */
-
-
-
-  /* Top Developer Section Start */
-  .top-develop {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    width: 100%;
-    height: auto;
-    padding: 10px;
-  }
-
-  .develop-title {
-    color: black;
-    text-align: center;
-  }
-
-  .top-develop .card {
-    width: 100%;
-    height: 70px;
-    padding: 10px;
-  }
-
-  .top-develop .card-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .top-develop .card-body img {
-    width: 40px;
-    height: 80px;
-    border-radius: 10px;
-    flex: 1;
-  }
-
-  .top-develop .card-desc {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex: 2;
-    gap: 10px;
-  }
-
-  .div-card-line {
-    width: 45px;
-    height: 1px;
-    background-color: #aca9a9;
-  }
-
-  .card-desc .desc {
-    color: #ec5242;
-    font-style: italic;
-  }
-
-  .top-develop .btn-more {
-    padding: 10px;
-    border: 1px solid gray;
-    text-align: center;
-    border-radius: 5px;
-  }
-
-  .btn-more i {
-    color: #ec5242;
-  }
-
-  /* Top Developer Section End */
-
-  /* Partner Section Start */
-  .partner {
-    background-color: #272a31;
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 25px;
-    color: #828282;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-
-  .container {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
-  .titleNumbre {
-    text-align: center;
-    color: white;
-    margin-bottom: 20px;
-    font-size: 30px;
-  }
-
-  .numbersContent {
-    display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    gap: 20px;
   }
 
-  /* Parnter Section End */
-
-  /* Footer Section Start */
-  footer {
-    padding: 20px 0;
-    text-align: center;
-  }
-
-  footer span {
-    font-size: 11px;
-    font-weight: bold;
-    color: #272a31;
-    text-align: center;
-  }
-
-  /* Footer Section End */
+  /* Desktop Version End */
 }
 
 /* Media Query End */

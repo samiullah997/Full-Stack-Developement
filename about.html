@@ -11,25 +11,43 @@
 </head>
 
 <body>
-
+    <div class="status-bar">
+        <ul>
+            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#">Logout</a></li>
+            <li><a href="#">Mypage</a></li>
+            <li><a href="#">English</a></li>
+        </ul>
+    </div>
     <!-- Header Section Start -->
-    <header>
+    <header class="about-img" id="header">
         <nav>
             <h2 class="logo">Full-Stack</h2>
             <i class="fa fa-bars menu-icon" id="menu-icon"></i>
             <i class="fa fa-xmark x-icon" id="x-icon"></i>
-            <ul class="menu-items">
-                <li><a href="#">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Featured</a></li>
+            <ul class="menu-items-desktop" id="menu-items-desktop">
+                <li id="home"><a href="./index.html">Home</a></li>
+                <li id="about"><a href="./about.html">About</a></li>
+                <li id="contact"><a href="#header">Contact Me</a></li>
+                <li id="developers"><a href="#partner">Partners</a></li>
             </ul>
         </nav>
-        <p class="header-desc">In this platform you will learn the different technologies associated with web apps and
-            mobile apps</p>
+        <ul class="menu-items" id="menu-items">
+            <li id="menu-home"><a href="./index.html">Home</a></li>
+            <li id="menu-about"><a href="./about.html">About</a></li>
+            <li id="menu-contact"><a href="#header">Contact Me</a></li>
+            <li id="menu-developers"><a href="#partner">Partners</a></li>
+        </ul>
 
-        <p class="sub-desc">Please Contact us per Email for any further questions about Full-Stack developer!</p>
-        <a class="underline" href="#">fullstackdeveloper@gmail.com</a>
+        <div class="about-desc">
+            <p class="header-desc">In this platform you will learn the different technologies associated with web apps
+                and
+                mobile apps</p>
+
+            <p class="sub-desc">Please Contact us per Email for any further questions about Full-Stack developer!</p>
+            <a class="underline" href="#">fullstackdeveloper@gmail.com</a>
+        </div>
     </header>
     <!-- Header Section End -->
     <!-- About Section Start -->
@@ -46,14 +64,16 @@
             <h2>See the past Full-Stack Development</h2>
             <div class="row"></div>
             <p>Take a look the last Full-Stack Development</p>
-            <img src="./images/past-image-1.png" alt="Past Images">
-            <img src="./images/past-image-2.png" alt="Past Images">
+            <div class="post-img">
+                <img src="./images/past-image-1.png" alt="Past Images">
+                <img src="./images/past-image-2.png" alt="Past Images">
+            </div>
         </div>
     </section>
     <!-- About Section End -->
 
     <!-- Partner Section Start -->
-    <section class="partner">
+    <section class="partner" id="partner">
         <div class="container _container">
             <h2 class="titleNumbre">Partners</h2>
             <div class="numbersContent">
