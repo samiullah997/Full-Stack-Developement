@@ -22,6 +22,7 @@ a {
 }
 
 .logo a {
+  font-family: "lato", sans-serif;
   color: white;
 }
 
@@ -36,12 +37,6 @@ a {
   color: white;
 }
 
-.btn-join:hover {
-    background-color: #0e0566;
-    color: white;
-    transition: 2000ms ease-in-out;
-}
-
 .status-bar ul {
   display: flex;
   flex-direction: row;
@@ -51,6 +46,7 @@ a {
 }
 
 .status-bar ul a {
+  font-family: "lato", sans-serif;
   color: white;
 }
 
@@ -89,6 +85,7 @@ nav {
   width: 100%;
   height: 40px;
   padding: 10px;
+  font-family: "lato", sans-serif;
   justify-content: space-between;
   color: #272a31;
 }
@@ -118,11 +115,13 @@ nav {
 }
 
 .menu-items li a {
+  font-family: "lato", sans-serif;
   color: #fff;
   font-size: 22px;
 }
 
 .menu-items li a:hover {
+  font-family: "lato", sans-serif;
   color: #ec5242;
   font-size: 22px;
   transition: 200ms ease-in-out;
@@ -153,6 +152,7 @@ nav {
   margin: 10px;
   border: 0.5px solid gray;
   background-color: #f4f0f0;
+  font-family: "lato", sans-serif;
   color: #272a31;
   padding: 10px;
   margin-top: 210px;
@@ -162,12 +162,14 @@ nav {
 .sub-desc {
   font-weight: bold;
   color: #ec5242;
+  font-family: "lato", sans-serif;
 }
 
 .underline {
   color: #ec5242;
   font-weight: bold;
   text-decoration: underline;
+  font-family: "lato", sans-serif;
 }
 
 /* Header Section start */
@@ -238,6 +240,7 @@ nav {
 }
 
 .top-lang h2 {
+  font-family: "lato", sans-serif;
   color: white;
   text-align: center;
   padding: 10px;
@@ -263,16 +266,17 @@ nav {
 }
 
 .top-lang .card-body img {
-    width: 68px;
-    height: 68px;
-    background-color: transparent;
-    display: flex;
-    border-radius: 50%;
-    padding: 5px;
+  width: 68px;
+  height: 68px;
+  background-color: transparent;
+  display: flex;
+  border-radius: 50%;
+  padding: 5px;
 }
 
 .card-desc h2 {
   font-size: 20px;
+  font-family: "lato", sans-serif;
 }
 
 .top-lang .card-body h2 {
@@ -288,6 +292,7 @@ nav {
   font-weight: 300;
   max-width: 176px;
   margin: 0 auto;
+  font-family: "lato", sans-serif;
 }
 
 .btn-join {
@@ -297,6 +302,14 @@ nav {
   color: white;
   text-align: center;
   margin: 20px;
+  font-family: "lato", sans-serif;
+}
+
+.btn-join:hover {
+  background-color: #0e0566;
+  font-family: "lato", sans-serif;
+  color: white;
+  transition: 2000ms ease-in-out;
 }
 
 /* Top Technologies End  */
@@ -314,6 +327,7 @@ nav {
 .develop-title {
   color: black;
   text-align: center;
+  font-family: "lato", sans-serif;
 }
 
 .top-area .card {
@@ -324,10 +338,9 @@ nav {
   padding: 10px;
 }
 
-
 .top-area .hide {
-    display: none;
-  }
+  display: none;
+}
 
 .top-area .card .card-body {
   display: flex;
@@ -383,6 +396,7 @@ nav {
   margin-top: 10px;
   font-size: 25px;
   color: #828282;
+  font-family: "lato", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -395,6 +409,7 @@ nav {
 .titleNumbre {
   text-align: center;
   color: white;
+  font-family: "lato", sans-serif;
   margin-bottom: 20px;
   font-size: 30px;
 }
@@ -420,13 +435,16 @@ footer span {
   font-size: 11px;
   font-weight: bold;
   color: #272a31;
+  font-family: "lato", sans-serif;
   text-align: center;
 }
 
 .logo-color {
-    color: red;
-    font-size: 13px;
+  color: red;
+  font-family: "lato", sans-serif;
+  font-size: 13px;
 }
+
 /* Footer Section End */
 
 /* Media Query Start */
@@ -498,7 +516,7 @@ footer span {
   .menu-items-desktop li a {
     color: white;
   }
-  
+
   .menu-items-desktop li a:hover {
     color: #ec5242;
     transition: 200ms ease-in-out;
@@ -536,6 +554,7 @@ footer span {
     color: #fff;
     text-align: start;
   }
+
   header .underline:hover {
     width: 440px;
     border: none;
@@ -583,6 +602,18 @@ footer span {
     height: 70px;
   }
 
+  .top-area .card {
+    width: 50%;
+    height: auto;
+  }
+
+  .top-area .card:hover {
+    width: 50%;
+    height: auto;
+    border: 1px solid #ec5242;
+    transition: 200ms ease-in-out;
+  }
+
   .top-lang .cards-area .card:hover {
     border: 1px solid #ec5242;
     transition: 200ms ease-in-out;
@@ -614,7 +645,7 @@ footer span {
     background-color: #ec5242;
     color: white;
     transition: 200ms ease-in-out;
-}
+  }
 
   .top-develop {
     display: flex;
@@ -627,17 +658,6 @@ footer span {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-
-  .top-area .card {
-    width: 50%;
-    height: auto;
-  }
-  .top-area .card:hover {
-    width: 50%;
-    height: auto;
-    border: 1px solid #ec5242;
-    transition: 200ms ease-in-out;
   }
 
   .top-area .hide {
