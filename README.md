@@ -25,9 +25,11 @@ To get a local copy up and running follow these simple example steps:
 - Twitter: [@twitterhandle][(https://twitter.com/twitterhandle)](https://twitter.com/samiullahk997)
 - LinkedIn: [LinkedIn][(https://linkedin.com/in/linkedinhandle)](https://www.linkedin.com/in/samiullah-khan-2702b7171/)
 
+## Video Link:
+[Loom Video](https://www.loom.com/share/4a2a7a4142fe4898af86867b1e445efa)
 
 ## LIVE DEMO
-https://samiullah997.github.io/Full-Stack-Development/
+http://kajjtech.me/Full-Stack-Developement/
 
 ## SCREENSHOTS
 
@@ -69,10 +71,9 @@ Give a ⭐️ if you like this project!
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
+* [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
 
-## Video Link:
-[Loom Video](https://www.loom.com/share/4a2a7a4142fe4898af86867b1e445efa)

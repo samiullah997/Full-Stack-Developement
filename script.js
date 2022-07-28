@@ -40,37 +40,37 @@ menuIcon.addEventListener('click', () => {
 
 const topDevelopers = [
   {
-    profileUrl: 'https://static.igem.org/mediawiki/2021/b/ba/T--MIPT_MSU--Lera.png',
+    profileUrl: 'https://i.pinimg.com/736x/07/33/ba/0733ba760b29378474dea0fdbcb97107.jpg',
     name: 'Dmitrii Vladimirtsev',
     subDesc: 'Full Stack Developer',
     fullDesc: 'Teach HTML CSS Bootstrap Javascript and many more technologies',
   },
   {
-    profileUrl: 'https://static.igem.org/mediawiki/2021/c/c6/T--MIPT_MSU--Pavel.png',
+    profileUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVxASP7dywthHPf5LICTwGvFmKLJCFZnF4h8QEG1pP8CbFbh1x15Cd5-j6zNIiAWz9H7g&usqp=CAU',
     name: 'Ilya Zubarev',
     subDesc: 'Full Stack Developer',
     fullDesc: 'Teach HTML CSS Bootstrap Javascript and many more technologies',
   },
   {
-    profileUrl: 'https://static.igem.org/mediawiki/2021/2/2b/T--MIPT_MSU--Ilya.png',
+    profileUrl: 'https://www.justheadshots.photo/wp-content/uploads/2020/04/Dark-background-headshots-015.jpg',
     name: 'Anton Derzhaev',
     subDesc: 'Full Stack Developer',
     fullDesc: 'Teach HTML CSS Bootstrap Javascript and many more technologies',
   },
   {
-    profileUrl: 'https://static.igem.org/mediawiki/2021/e/e1/T--MIPT_MSU--Dima.png',
+    profileUrl: 'https://pauliusmusteikis.com/wp-content/uploads/2018/11/business-headshot-of-man-1.jpg',
     name: 'Pavel Makarevich',
     subDesc: 'Full Stack Developer',
     fullDesc: 'Teach HTML CSS Bootstrap Javascript and many more technologies',
   },
   {
-    profileUrl: 'https://static.igem.org/mediawiki/2021/b/ba/T--MIPT_MSU--Lera.png',
+    profileUrl: 'https://www.proheadshots.ca/wp-content/uploads/2016/03/vancouver-corporate-headshots-1.jpg',
     name: 'Dmitrii Vladimirtsev',
     subDesc: 'Full Stack Developer',
     fullDesc: 'Teach HTML CSS Bootstrap Javascript and many more technologies',
   },
   {
-    profileUrl: 'https://static.igem.org/mediawiki/2021/b/ba/T--MIPT_MSU--Lera.png',
+    profileUrl: 'https://www.richardsphotography.com/wp-content/uploads/photo-gallery/imported_from_media_libray/Business-headshot-white-background-suit-and-tie-san-antonio-copy.jpg?bwg=1610738762',
     name: 'Dmitrii Vladimirtsev',
     subDesc: 'Full Stack Developer',
     fullDesc: 'Teach HTML CSS Bootstrap Javascript and many more technologies',
